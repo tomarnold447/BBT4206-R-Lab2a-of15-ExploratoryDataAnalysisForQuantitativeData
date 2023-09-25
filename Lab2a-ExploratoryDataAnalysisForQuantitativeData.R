@@ -55,13 +55,11 @@
 # Execute the following command to list all the libraries available in your
 # computer:
 .libPaths()
-
 # One of the libraries should be a folder inside the project.
 
 # Then execute the following command to see which packages are available in
 # each library:
 lapply(.libPaths(), list.files)
-
 # This can also be configured using the RStudio GUI when you click the project
 # file, e.g., "BBT4206-R.Rproj" in the case of this project. Then
 # navigate to the "Environments" tab and select "Use renv with this project".
@@ -85,7 +83,6 @@ lapply(.libPaths(), list.files)
 # Execute the following code to reinstall the specific package versions
 # recorded in the lockfile (restart R after executing the command):
 renv::restore()
-
 # If you get several errors setting up renv and you prefer not to use it, then
 # you can deactivate it using the following command (restart R after executing
 # the command):
