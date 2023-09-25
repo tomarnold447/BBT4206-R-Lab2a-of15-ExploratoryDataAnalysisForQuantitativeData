@@ -848,7 +848,7 @@ renv::snapshot()
 # "Lab2-Submission-ExploratoryDataAnalysis.R".
 # Use this file to provide all the code you have used to perform an exploratory
 # data analysis of the "Class Performance Dataset" provided on the eLearning
-# platform.
+# platform. 
 
 ## Part B ----
 # Upload *the link* to your "Lab2-Submission-ExploratoryDataAnalysis.R" hosted
